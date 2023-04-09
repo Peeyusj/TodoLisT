@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow-y: scroll;
+}
+button{
+  cursor: pointer;
+}
+.content{
+  position: absolute;
+  width: 100%;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+ 
+  
+}
+.modalcontainer{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.701);
+  justify-content: center;
+  align-items: center;
+}
+form{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 3;
+  background-color: rgba(218, 165, 32, 0.893);
+  border:none;
+  border-radius: 8px;
+  height: 200px;
+  width: 400px;
+  flex-direction: column;
+}
+form button{
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+form input{
+  
+  border: 9px;
+  outline: none;
+  border: none;
+  height: 20px;
+  border-radius: 5px;
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.879);
+  height: 34px;
+  position: fixed;
+  color: white;
+  top: 0px;
+  font-weight: 800;
+  font-size: 19px;
+  z-index: 2;
+  width: 100%;
+  padding:auto;
+}
+.bttn {
+  position: absolute;
+  top: 70px;
+ 
+}
+.bttn button{
+  width: 168px;
+  height: 50px;
+  border-radius: 9px;
+  background-color: rgba(165, 42, 42, 0.859);
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+.taask{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.793);
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.taask button{
+  width: 80px;
+  height: 19px;
+  border-radius: 5px;
+  border: none;
+}
+.taskname{
+
+    color: white;
+    width: 70%;
+    padding: 3px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.tasklist{
+  position: absolute;
+    top: 150px;
+}
